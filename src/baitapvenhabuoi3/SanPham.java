@@ -9,6 +9,7 @@ public class SanPham {
     private int soLuong;
     private int soLuongMua;
     private double thanhTien;
+
     //Nhập thông tin sản phẩm từ bàn phím
     public void NhapThongTinSanPham() {
         Scanner scanner = new Scanner(System.in);
