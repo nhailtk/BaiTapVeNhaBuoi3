@@ -9,7 +9,7 @@ public class SanPham {
     private int soLuong;
     private int soLuongMua;
     private double thanhTien;
-
+    //Nhập thông tin sản phẩm từ bàn phím
     public void NhapThongTinSanPham() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nhập mã sản phẩm: ");
@@ -29,7 +29,7 @@ public class SanPham {
         }
         scanner.nextLine();
     }
-
+    //Hiển thị thông tin sản phẩm ra màn hình
     public void HienThiThongTinSanPham() {
         System.out.println("Mã sản phẩm: " + maSanPham);
         System.out.println("Tên sản phẩm: " + tenSanPham);
